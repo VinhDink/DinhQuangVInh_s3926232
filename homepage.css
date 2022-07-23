@@ -26,6 +26,7 @@ header nav {
     vertical-align: bottom;
 }
 
+/*homepage*/
 .category1 {
     width: 90%;
     text-align: center;
@@ -51,6 +52,75 @@ main div img {
     margin-top: 20px; 
 }
 
+/*Category page */
+.subcategory1 {
+    width: 90%;
+    text-align: center;
+    border: solid black;
+    margin: auto;
+    margin-top: 20px;
+}
+
+figure {
+    display: inline-block;
+    width: 150px;
+}
+
+main div img {
+    height: auto;
+}
+
+.subcategory2 {
+    width: 90%;
+    text-align: center;
+    border: solid black;
+    margin: auto;
+    margin-top: 20px; 
+}
+
+.subcategory3 {
+    width: 90%;
+    text-align: center;
+    border: solid black;
+    margin: auto;
+    margin-top: 20px; 
+}
+
+/*book detail */
+.breadcrumb li {
+    display: inline;
+    font-size: 20px;
+}
+
+.breadcrumb li+li::before {
+    padding: 8px;
+    color: black;
+    content: ">\00a0";
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+}
+
+.main   {
+    display: grid;
+    place-items: center;
+}
+
+.add {
+    width: 150px;
+    height: 50px;
+}
+
+/*Contact page*/
+
 footer {
     width: 80%;
     text-align: center;
@@ -69,6 +139,7 @@ footer nav  {
     display: inline-flex;
    
 }
+
 
 @media screen and (min-width: 961px) {
     header nav li {
